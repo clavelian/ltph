@@ -1,11 +1,9 @@
-import { FloatingDockDemo } from "@/components/navbar/floatingDock";
+// import { FloatingDockDemo } from "@/components/dock/floatingDock";
 
 export default function Home() {
   return (
     <>
-      <nav>
-        <FloatingDockDemo />
-      </nav>
+      <nav>{/* <FloatingDockDemo /> */}</nav>
     </>
   );
 }
