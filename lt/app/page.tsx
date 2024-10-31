@@ -6,7 +6,9 @@ import Image from "next/image";
 export default function Home() {
   return (
     <>
-      <div className="bg-[url('terrarium.jpg)]"></div>
+      <header className="absolute ">
+        <Image src={Terra} alt="Terra BG" className="bg-cover bg-center" />
+      </header>
       <nav>
         <FloatingDockDemo />
       </nav>
