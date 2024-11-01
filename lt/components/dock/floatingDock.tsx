@@ -1,5 +1,5 @@
 import React from "react";
-import { FloatingDock } from "@/components/ui/floating-dock";
+import { FloatingDock } from "@/components/ui/dock/floating-dock";
 import {
   IconBrandGithub,
   IconBrandX,
