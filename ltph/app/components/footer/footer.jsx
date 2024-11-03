@@ -1,7 +1,7 @@
 const Footer = () => {
-    return ( 
-        <>
-<footer className="footer bg-neutral text-neutral-content p-10">
+  return ( 
+<div className="absolute bottom-0 w-full">
+  <footer className="footer bg-neutral text-neutral-content p-10">
   <nav>
     <h6 className="footer-title">Services</h6>
     <a className="link link-hover">Branding</a>
@@ -22,10 +22,9 @@ const Footer = () => {
     <a className="link link-hover">Privacy policy</a>
     <a className="link link-hover">Cookie policy</a>
   </nav>
-</footer>
-
-        </>
-     );
+  </footer>
+</div>
+  );
 }
  
 export default Footer;

@@ -1,13 +1,12 @@
-import Footer from "@/app/components/footer";
-import Toggle from "@/app/components/modeToggle";
+import Footer from "@/app/components/footer/footer";
+import Navbar from "@/app/components/navbar/navbar";
 export default function Home() {
   return (
     <>
-      <main>
-        <nav>
-          <Toggle />
-        </nav>
-      </main>
+      <nav>
+        <Navbar />
+      </nav>
+      <main className="h-[100vh]"></main>
       <footer>
         <Footer />
       </footer>
