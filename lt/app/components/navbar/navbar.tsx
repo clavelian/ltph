@@ -10,7 +10,7 @@ const ResponsiveNavbar = () => {
   const [mobileSidebarOpen, setMobileSidebarOpen] = useState(false);
 
   return (
-    <nav className="flex items-center justify-between w-full relative bg-white boxShadow rounded-full px-[10px] py-[8px]">
+    <nav className="flex items-center justify-between w-full relative bg-[--background] boxShadow rounded-full px-[10px] py-[8px]">
       <img
         src="https://i.ibb.co/0BZfPq6/darklogo.png"
         alt="logo"
@@ -32,11 +32,8 @@ const ResponsiveNavbar = () => {
       </ul>
 
       <div className="items-center gap-[10px] flex">
-        <button className="py-[7px] text-[1rem] px-[16px] rounded-full capitalize hover:text-[#3B9DF8] transition-all duration-300 sm:flex hidden">
-          Sign in
-        </button>
         <button className="py-[7px] text-[1rem] px-[16px] rounded-full capitalize bg-[#3B9DF8] text-white hover:bg-blue-400 transition-all duration-300 sm:flex hidden">
-          Sign up
+          Contact Us
         </button>
 
         <CiMenuFries
