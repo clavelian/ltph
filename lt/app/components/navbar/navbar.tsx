@@ -2,15 +2,13 @@
 
 import React, { useState } from "react";
 
-// react icons
-// import { IoIosSearch } from "react-icons/io";
 import { CiMenuFries } from "react-icons/ci";
 
 const ResponsiveNavbar = () => {
   const [mobileSidebarOpen, setMobileSidebarOpen] = useState(false);
 
   return (
-    <nav className="flex items-center justify-between w-full relative bg-[--background] boxShadow rounded-full px-[10px] py-[8px]">
+    <nav className="flex items-center justify-between w-full relative bg-[--background] boxShadow rounded-full px-10 py-4 default:px-20">
       <img
         src="https://i.ibb.co/0BZfPq6/darklogo.png"
         alt="logo"
@@ -49,13 +47,6 @@ const ResponsiveNavbar = () => {
             : "translate-x-[200px] opacity-0 z-[-1]"
         } lg:hidden bg-[--background] boxShadow p-4 text-center absolute top-[65px] right-0 w-full rounded-md transition-all duration-300`}
       >
-        {/* <div className="relative mb-5">
-          <input
-            className="py-1.5 pr-4 w-full pl-10 rounded-full border border-gray-200 outline-none focus:border-[#3B9DF8]"
-            placeholder="Search..."
-          />
-          <IoIosSearch className="absolute top-[8px] left-3 text-gray-500 text-[1.3rem]" />
-        </div> */}
         <ul className="items-center gap-[20px] text-[1rem] text-gray-600 flex flex-col">
           <li className="hover:border-b-[#3B9DF8] border-b-[2px] border-transparent transition-all duration-500 cursor-pointer capitalize">
             home
