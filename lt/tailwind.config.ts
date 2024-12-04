@@ -8,26 +8,26 @@ export default {
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-  	screens: {
-  		sm: {
-  			min: '300px',
-  			max: '767px'
-  		},
-  		md: {
-  			min: '768px',
-  			max: '1023px'
-  		},
-  		lg: {
-  			min: '1024px',
-  			max: '1279px'
-  		},
-  		xl: {
-  			min: '1280px'
-  		},
-  		default: {
-  			min: '768px'
-  		}
-  	},
+  	// screens: {
+  	// 	sm: {
+  	// 		min: '300px',
+  	// 		max: '767px'
+  	// 	},
+  	// 	md: {
+  	// 		min: '768px',
+  	// 		max: '1023px'
+  	// 	},
+  	// 	lg: {
+  	// 		min: '1024px',
+  	// 		max: '1279px'
+  	// 	},
+  	// 	xl: {
+  	// 		min: '1280px'
+  	// 	},
+  	// 	default: {
+  	// 		min: '768px'
+  	// 	}
+  	// },
   	extend: {
   		colors: {
   			background: 'hsl(var(--background))',
@@ -78,5 +78,6 @@ export default {
   		}
   	}
   },
+  // eslint-disable-next-line @typescript-eslint/no-require-imports
   plugins: [require("tailwindcss-animate")],
 } satisfies Config;
